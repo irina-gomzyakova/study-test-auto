@@ -17,7 +17,7 @@ public class Task002 {
             }
             System.out.println("Продолжить?");
             String answer = sc.next();
-            if (answer.equalsIgnoreCase("нет")) {
+            if (!answer.equalsIgnoreCase("да")) {
                 break;
             }
         }
